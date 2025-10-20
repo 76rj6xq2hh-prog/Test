@@ -1,0 +1,20 @@
+import random
+
+quotes = [
+    "Believe in yourself!",
+    "You can do hard things.",
+    "Keep pushing forward.",
+    "Dream big, work hard.",
+    "Success starts with effort.",
+    "Stay positive, stay fighting.",
+    "Make today count.",
+    "Failure is not the end.",
+    "Never give up.",
+    "You’re stronger than you think."
+]
+def inspire():
+    print("🌟 Your motivational quote 🌟")
+    print(random.choice(quotes))
+    print("\nKeep going, you got this!")
+if __name__ == "__main__":
+    inspire()
